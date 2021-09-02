@@ -1,15 +1,7 @@
-const knex = require('knex')({
-    client: 'pg',
-    connection: {
-        host: '127.0.0.1',
-        user: 'postgres',
-        password: '1',
-        database: 'postgres'
-    }
-});
+const {knexClient}  = require('../config/knex');
 
 async function selectCustomerByCity() {
-    return await knex.select().from('test');
+    return await knexClient.select().from('test');
 }
 
 module.exports = {
