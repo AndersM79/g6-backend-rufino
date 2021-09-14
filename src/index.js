@@ -1,6 +1,5 @@
 const express = require('express');
 const customerRoutes = require('./api/customer');
-const knex = require('knex');
 
 const app = express();
 const port = 3000;
