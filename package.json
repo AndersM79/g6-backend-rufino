@@ -19,8 +19,10 @@
   },
   "homepage": "https://github.com/AndersM79/g6-backend-rufino#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
-    "knex": "^0.95.10",
+    "firebase-admin": "^9.11.1",
+    "knex": "^0.95.11",
     "pg": "^8.7.1"
   }
 }
